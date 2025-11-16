@@ -1,0 +1,56 @@
+ll_env/
+ll_env_OLD/
+
+# Byte-compiled / intermediate files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VS Code specific settings and workspace
+.vscode/
+*.code-workspace
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Logs and profiling
+*.log
+*.dat
+*.out
+*.profile
+
+# Cache files
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+
+# Ignore Jupyter Notebook checkpoints (if using .ipynb files)
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info
+
+# Ignore coverage reports
+.coverage
+*.cover
+htmlcov/
+.tox/
+
+# Pip file lock (if applicable)
+Pipfile.lock
