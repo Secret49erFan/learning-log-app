@@ -143,7 +143,7 @@ from platformshconfig import Config
 
 config = Config()
 if config.is_valid_platform():
-    ALLOWED_HOSTS.append(f'.{config.project_domain}')
+    ALLOWED_HOSTS.append('platformsh.site')
     DEBUG = False
 
     if config.appDir:
