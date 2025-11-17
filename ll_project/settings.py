@@ -143,8 +143,8 @@ from platformshconfig import Config
 
 config = Config()
 if config.is_valid_platform():
-    ALLOWED_HOSTS.append('main-bvxea6i-m3762re4oh3c2.us-3.platformsh.site',
-                         'www.main-bvxea6i-m3762re4oh3c2.us-3.platformsh.site')
+    ALLOWED_HOSTS.append('main-bvxea6i-m3762re4oh3c2.us-3.platformsh.site')
+    ALLOWED_HOSTS.append('www.main-bvxea6i-m3762re4oh3c2.us-3.platformsh.site')
     DEBUG = False
 
     if config.appDir:
