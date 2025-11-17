@@ -19,9 +19,6 @@ applications:
           expires: 1h
           allow: true
 
-    # The size of the persistent disk of the application (in MB).
-    disk: 512
-
     # Set a local read/write mount for logs.
     mounts:
       "logs":
