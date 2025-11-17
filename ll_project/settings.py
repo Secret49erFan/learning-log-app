@@ -29,7 +29,7 @@ SECRET_KEY = token
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
@@ -143,7 +143,8 @@ from platformshconfig import Config
 
 config = Config()
 if config.is_valid_platform():
-    ALLOWED_HOSTS.append('platformsh.site')
+    ALLOWED_HOSTS.append('main-bvxea6i-m3762re4oh3c2.us-3.platformsh.site',
+                         'www.main-bvxea6i-m3762re4oh3c2.us-3.platformsh.site')
     DEBUG = False
 
     if config.appDir:
